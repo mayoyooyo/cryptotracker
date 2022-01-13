@@ -9,8 +9,8 @@ const ProgessBar = ({ width, percent }: any) => {
 
   return (
     <div>
-      <div className="progress-div bg-mayo1" style={{ width: width }}>
-        <div style={{ width: `${value}%` }} className="progress bg-mayo2" />
+      <div className="progress-div bg-black" style={{ width: width }}>
+        <div style={{ width: `${value}%` }} className="progress bg-mayo1" />
       </div>
     </div>
   );

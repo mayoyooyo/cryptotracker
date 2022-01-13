@@ -6,6 +6,7 @@ export default function CoinList({ filteredCoins }: any) {
       {filteredCoins.map((coin: any) => {
         return (
           <CoinContainer
+            className=" transition-opacity"
             key={coin.id}
             name={coin.name}
             id={coin.id}
