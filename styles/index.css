@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-white;
+}
+
+* {
+}
+
+.progress-div {
+  border-radius: 0.5rem;
+}
+
+.progress {
+  height: 10px;
+  border-radius: 1rem;
+  transition: 1s ease;
+  transition-delay: 0.25s;
+}
